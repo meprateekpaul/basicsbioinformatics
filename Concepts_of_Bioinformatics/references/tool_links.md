@@ -33,11 +33,13 @@ A curated directory of production web servers and documentation portals used thr
 | Tool | Host | URL |
 |---|---|---|
 | **NCBI ORFfinder** | NCBI | https://www.ncbi.nlm.nih.gov/orffinder/ |
+| **ExPASy Translate** | SIB Expasy | https://web.expasy.org/translate/ |
+| **Compute pI/Mw** | SIB Expasy | https://web.expasy.org/compute_pi/ |
 | **ProtParam** | SIB Expasy | https://web.expasy.org/protparam/ |
 | **ProtScale** | SIB Expasy | https://web.expasy.org/protscale/ |
 | **PROSITE Scan** | SIB Expasy | https://prosite.expasy.org/scanprosite/ |
 | **GOR IV** | PBIL NPS@ | https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_gor4.html |
-| **PSIPRED** | UCL Bioinf | http://bioinf.cs.ucl.ac.uk/psipred/ |
+| **PSIPRED** | UCL Bioinf | https://bioinf.cs.ucl.ac.uk/psipred/ |
 
 ---
 
@@ -49,3 +51,14 @@ A curated directory of production web servers and documentation portals used thr
 | **iCn3D** | NCBI Web | https://www.ncbi.nlm.nih.gov/Structure/icn3d/ |
 | **VMD** | Standalone Desktop | https://www.ks.uiuc.edu/Research/vmd/ |
 | **PyMOL** | Standalone Desktop | https://pymol.org/ |
+
+---
+
+## 5. Comparative Genomics & Pathway Databases
+
+| Tool | Host | URL |
+|---|---|---|
+| **KEGG Pathways** | Kyoto University | https://www.kegg.jp/ |
+| **Ensembl Genome Browser** | EMBL-EBI / Sanger | https://www.ensembl.org/ |
+| **STRING Network** | STRING Consortium | https://string-db.org/ |
+| **UCSC Genome Browser** | UCSC Genomics Institute | https://genome.ucsc.edu/ |

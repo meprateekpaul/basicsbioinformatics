@@ -2,7 +2,7 @@
 
 > **Undergraduate Curriculum · B.Tech. Bioinformatics · Semester II**  
 > *Inspired by the B.Tech. Bioinformatics Programme of [Sam Higginbottom University of Agriculture, Technology and Sciences (SHUATS)](https://shuats.edu.in/), Prayagraj, India*  
-> *Department of Computational Biology & Bioinformatics, Jacob Institute of Biotechnology & Bioengineering (JSBB)*  
+> *Department of Computational Biology & Bioinformatics, Jacob Institute of Biotechnology and Bio-Engineering (JIBB, formerly JSBB)*  
 > **Credits:** 3 (L-T-P: 2-0-1) | 30 Theory Lectures · 15 Practical Sessions · 11 Python Notebook Units
 
 Welcome to the course repository for **Concepts of Bioinformatics**. This course introduces first-year B.Tech. undergraduates to the core computational, structural, and evolutionary concepts underpinning contemporary bioinformatics.
