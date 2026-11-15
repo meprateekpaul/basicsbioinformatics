@@ -26,11 +26,13 @@ Concepts_of_Bioinformatics/
 ├── COURSE_PLAN.md            Detailed university syllabus mapping and weekly schedule
 ├── FOUR_MONTH_ROADMAP.md     15-week (4-month) structured study guide & time budget
 ├── SYLLABUS.md               Official syllabus text and learning outcomes (LO1–LO8)
+├── index.html                Interactive Course Web Portal (Slides, Notes, Notebook Hub)
 ├── data/                     Standardized biological sequences, structures, and offline fallbacks
-├── lectures/                 Lecture slides and comprehensive study notes for Units 1–11 (L01–L30)
+├── lectures/                 Lecture study notes for Units 1–11 (L01–L30)
+├── slides/                   30 Marp/Markdown presentation slide decks (L01–L30)
 ├── practicals/               Lab sheets, student worksheets, and instructor keys (S01–S15)
-├── notebooks/                Jupyter notebooks (C, P, Q) and solutions across Units U01–U11
-├── assessments/              Question bank, quizzes, assignments, mini-project, and examination papers
+├── notebooks/                59 Jupyter notebooks (C, P, Q) and solutions across Units U01–U11
+├── assessments/              Question bank, quizzes, assignments, mini-project, and exams
 └── references/               Recommended textbooks, web portals, and printable cheat sheets
 ```
 
@@ -38,27 +40,27 @@ Concepts_of_Bioinformatics/
 
 ## Unit Breakdown at a Glance
 
-| Unit | Title | Lectures | Syllabus Practical | Notebooks |
-|---|---|---|---|---|
-| **U01** | Bioinformatics and Internet | L01–L02 | S01: Linux Commands | `U01_C1`, `U01_P`, `U01_Q` |
-| **U02** | Information Retrieval from Biological Databases | L03–L04 | S02: NCBI Tour · S03: Entrez Literature | `U02_C1`, `U02_P`, `U02_Q` |
-| **U03** | The NCBI Data Model | L05–L06 | *(integrated with U02/U04)* | `U03_C1`, `U03_P`, `U03_Q` |
-| **U04** | GenBank Sequence Database | L07–L09 | S04: DNA Retrieval · S05: Protein Retrieval | `U04_C1`, `U04_C2`, `U04_P`, `U04_Q` |
-| **U05** | Sequence Alignment & Database Searching | L10–L15 | S06: BLAST · S07: FASTA | `U05_C1`, `U05_C2`, `U05_C3`, `U05_P`, `U05_Q` |
-| **U06** | Multiple Sequence Alignment (MSA) | L16–L17 | S08: ClustalW & Clustal Omega | `U06_C1`, `U06_P`, `U06_Q` |
-| **U07** | Phylogenetic Analysis | L18–L20 | *(tree building from S08 MSA)* | `U07_C1`, `U07_P`, `U07_Q` |
-| **U08** | Predictive Methods: Nucleotide Sequence | L21–L22 | S09: DNA Sequence Analysis | `U08_C1`, `U08_P`, `U08_Q` |
-| **U09** | Predictive Methods: Protein Sequence | L23–L25 | S10: Protein Analysis · S11: GOR Algorithm | `U09_C1`, `U09_C2`, `U09_P`, `U09_Q` |
-| **U10** | Structure Databases & Visualisation | L26–L28 | S12: PDB Database · S13: VMD Visualisation | `U10_C1`, `U10_P`, `U10_Q` |
-| **U11** | Comparative Genome Analysis | L29–L30 | S14: Mini-Project · S15: Practical Exam | `U11_C1`, `U11_P`, `U11_Q` |
+| Unit | Title | Lectures (Notes & Slides) | Syllabus Practical | Notebooks (C, P, Q) |
+|:---:|:---|:---|:---|:---|
+| **U01** | Bioinformatics and Internet | [Notes (L01–02)](lectures/U01_Bioinformatics_and_Internet/) · [Slides](slides/U01_Bioinformatics_and_Internet/) | [S01: Linux Commands](practicals/S01_Linux_Commands/) | [`U01_C1`](notebooks/U01_Bioinformatics_and_Internet/U01_C1_Sequences_as_Text.ipynb), [`P`](notebooks/U01_Bioinformatics_and_Internet/U01_P_Sequences_as_Text.ipynb), [`Q`](notebooks/U01_Bioinformatics_and_Internet/U01_Q_Bioinformatics_and_Internet.ipynb) |
+| **U02** | Information Retrieval | [Notes (L03–04)](lectures/U02_Information_Retrieval/) · [Slides](slides/U02_Information_Retrieval/) | [S02: NCBI Tour](practicals/S02_NCBI_Introduction/) · [S03: Entrez](practicals/S03_Entrez_Literature/) | [`U02_C1`](notebooks/U02_Information_Retrieval/U02_C1_Entrez_Search_from_Python.ipynb), [`P`](notebooks/U02_Information_Retrieval/U02_P_Entrez_Search.ipynb), [`Q`](notebooks/U02_Information_Retrieval/U02_Q_Information_Retrieval.ipynb) |
+| **U03** | NCBI Data Model & ASN.1 | [Notes (L05–06)](lectures/U03_NCBI_Data_Model/) · [Slides](slides/U03_NCBI_Data_Model/) | *(integrated with U02/U04)* | [`U03_C1`](notebooks/U03_NCBI_Data_Model/U03_C1_Inside_a_Sequence_Record.ipynb), [`P`](notebooks/U03_NCBI_Data_Model/U03_P_Inside_a_Sequence_Record.ipynb), [`Q`](notebooks/U03_NCBI_Data_Model/U03_Q_NCBI_Data_Model.ipynb) |
+| **U04** | GenBank Sequence Database | [Notes (L07–09)](lectures/U04_GenBank_Database/) · [Slides](slides/U04_GenBank_Database/) | [S04: DNA](practicals/S04_GenBank_DNA_Retrieval/) · [S05: Protein](practicals/S05_Protein_Retrieval_Expasy/) | [`U04_C1`](notebooks/U04_GenBank_Database/U04_C1_GenBank_Flat_File.ipynb), [`C2`](notebooks/U04_GenBank_Database/U04_C2_Formats_and_Conversion.ipynb), [`P`](notebooks/U04_GenBank_Database/U04_P_GenBank_Database.ipynb), [`Q`](notebooks/U04_GenBank_Database/U04_Q_GenBank_Database.ipynb) |
+| **U05** | Alignment & BLAST/FASTA | [Notes (L10–15)](lectures/U05_Sequence_Alignment/) · [Slides](slides/U05_Sequence_Alignment/) | [S06: BLAST](practicals/S06_BLAST_Alignment/) · [S07: FASTA](practicals/S07_FASTA_Alignment/) | [`U05_C1`](notebooks/U05_Sequence_Alignment/U05_C1_Dot_Plots_and_Global_Alignment.ipynb), [`C2`](notebooks/U05_Sequence_Alignment/U05_C2_Local_Alignment_and_Scoring.ipynb), [`C3`](notebooks/U05_Sequence_Alignment/U05_C3_Reading_BLAST_Results.ipynb), [`P`](notebooks/U05_Sequence_Alignment/U05_P_Sequence_Alignment.ipynb), [`Q`](notebooks/U05_Sequence_Alignment/U05_Q_Sequence_Alignment.ipynb) |
+| **U06** | Multiple Alignment (MSA) | [Notes (L16–17)](lectures/U06_Multiple_Sequence_Alignment/) · [Slides](slides/U06_Multiple_Sequence_Alignment/) | [S08: ClustalW & Jalview](practicals/S08_ClustalW_MSA/) | [`U06_C1`](notebooks/U06_Multiple_Sequence_Alignment/U06_C1_Multiple_Alignment_and_Conservation.ipynb), [`P`](notebooks/U06_Multiple_Sequence_Alignment/U06_P_Multiple_Sequence_Alignment.ipynb), [`Q`](notebooks/U06_Multiple_Sequence_Alignment/U06_Q_Multiple_Sequence_Alignment.ipynb) |
+| **U07** | Phylogenetic Analysis | [Notes (L18–20)](lectures/U07_Phylogenetic_Analysis/) · [Slides](slides/U07_Phylogenetic_Analysis/) | *(tree building from S08 MSA)* | [`U07_C1`](notebooks/U07_Phylogenetic_Analysis/U07_C1_Distances_and_Trees.ipynb), [`P`](notebooks/U07_Phylogenetic_Analysis/U07_P_Phylogenetic_Trees.ipynb), [`Q`](notebooks/U07_Phylogenetic_Analysis/U07_Q_Phylogenetic_Analysis.ipynb) |
+| **U08** | Predictive Nucleotide | [Notes (L21–22)](lectures/U08_Predictive_Nucleotide/) · [Slides](slides/U08_Predictive_Nucleotide/) | [S09: DNA Analysis](practicals/S09_DNA_Sequence_Analysis/) | [`U08_C1`](notebooks/U08_Predictive_Nucleotide/U08_C1_ORFs_GC_and_Codon_Usage.ipynb), [`P`](notebooks/U08_Predictive_Nucleotide/U08_P_Predictive_Nucleotide.ipynb), [`Q`](notebooks/U08_Predictive_Nucleotide/U08_Q_Predictive_Nucleotide.ipynb) |
+| **U09** | Predictive Protein | [Notes (L23–25)](lectures/U09_Predictive_Protein/) · [Slides](slides/U09_Predictive_Protein/) | [S10: Protein](practicals/S10_Protein_Sequence_Analysis/) · [S11: GOR IV](practicals/S11_GOR_Secondary_Structure/) | [`U09_C1`](notebooks/U09_Predictive_Protein/U09_C1_Protein_Properties_and_Motifs.ipynb), [`C2`](notebooks/U09_Predictive_Protein/U09_C2_Secondary_Structure_Prediction_Scoring.ipynb), [`P`](notebooks/U09_Predictive_Protein/U09_P_Predictive_Protein.ipynb), [`Q`](notebooks/U09_Predictive_Protein/U09_Q_Predictive_Protein.ipynb) |
+| **U10** | Structure Databases (PDB) | [Notes (L26–28)](lectures/U10_Structure_Databases/) · [Slides](slides/U10_Structure_Databases/) | [S12: PDB](practicals/S12_PDB_Structure_Database/) · [S13: VMD](practicals/S13_VMD_Visualisation/) | [`U10_C1`](notebooks/U10_Structure_Databases/U10_C1_Reading_a_PDB_File.ipynb), [`P`](notebooks/U10_Structure_Databases/U10_P_Structure_Databases.ipynb), [`Q`](notebooks/U10_Structure_Databases/U10_Q_Structure_Databases.ipynb) |
+| **U11** | Comparative Genomics | [Notes (L29–30)](lectures/U11_Comparative_Genomics/) · [Slides](slides/U11_Comparative_Genomics/) | [S14: Mini-Project](practicals/S14_Mini_Project_Session/) · [S15: Exam](practicals/S15_Practical_Exam_Viva/) | [`U11_C1`](notebooks/U11_Comparative_Genomics/U11_C1_Comparing_Two_Genomes.ipynb), [`P`](notebooks/U11_Comparative_Genomics/U11_P_Comparative_Genomics.ipynb), [`Q`](notebooks/U11_Comparative_Genomics/U11_Q_Comparative_Genomics.ipynb) |
 
 ---
 
 ## Environment & Prerequisites
 
-Python dependencies are managed via [`btech/requirements.txt`](../requirements.txt):
+Python dependencies are managed via [`requirements.txt`](../requirements.txt):
 ```bash
-pip install -r ../requirements.txt
+pip install -r requirements.txt
 ```
 
 Launch JupyterLab to interact with course notebooks:
