@@ -1,0 +1,11 @@
+jupyterlab
+biopython>=1.83
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+requests
+nbformat
+nbval
+pytest

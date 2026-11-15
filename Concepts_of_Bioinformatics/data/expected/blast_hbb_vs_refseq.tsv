@@ -1,0 +1,8 @@
+query_id	subject_id	identity	aln_length	mismatches	gaps	q_start	q_end	s_start	s_end	evalue	bit_score	subject_title
+NP_000509.1	NP_000509.1	100.00	147	0	0	1	147	1	147	1.2e-105	298.0	hemoglobin subunit beta [Homo sapiens]
+NP_000509.1	NP_000510.1	95.24	147	7	0	1	147	1	147	3.4e-98	279.0	hemoglobin subunit delta [Homo sapiens]
+NP_000509.1	NP_000550.2	73.47	147	39	0	1	147	1	147	2.1e-72	212.0	hemoglobin subunit gamma-1 [Homo sapiens]
+NP_000509.1	NP_000549.1	72.79	147	40	0	1	147	1	147	8.5e-72	210.0	hemoglobin subunit gamma-2 [Homo sapiens]
+NP_000509.1	NP_000508.1	43.06	144	81	1	3	146	1	143	4.8e-37	121.0	hemoglobin subunit alpha [Homo sapiens]
+NP_000509.1	NP_005359.1	28.47	144	97	3	5	145	8	148	1.5e-18	73.6	myoglobin [Homo sapiens]
+NP_000509.1	NP_067080.1	24.11	141	101	5	10	145	12	150	4.2e-08	47.8	neuroglobin [Homo sapiens]

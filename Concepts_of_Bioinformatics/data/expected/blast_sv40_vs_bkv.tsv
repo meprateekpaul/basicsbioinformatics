@@ -1,0 +1,6 @@
+query_id	subject_id	identity	aln_length	mismatches	gaps	q_start	q_end	s_start	s_end	evalue	bit_score	subject_title
+NP_043127.1	NP_041532.1	82.50	708	124	0	1	708	1	708	0.0	1180.0	large T antigen [BK polyomavirus]
+NP_043128.1	NP_041533.1	76.47	170	40	0	1	170	1	170	2.1e-92	265.0	small t antigen [BK polyomavirus]
+NP_043124.1	NP_041529.1	78.89	360	76	0	1	360	1	360	0.0	580.0	major capsid protein VP1 [BK polyomavirus]
+NP_043125.1	NP_041530.1	69.21	354	109	0	1	354	1	354	3.2e-160	445.0	minor structural protein VP2 [BK polyomavirus]
+NP_043126.1	NP_041531.1	73.11	238	64	0	1	238	1	238	1.4e-110	315.0	minor structural protein VP3 [BK polyomavirus]

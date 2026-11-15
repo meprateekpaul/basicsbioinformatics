@@ -1,0 +1,11 @@
+query_id	subject_id	identity	aln_length	mismatches	gaps	q_start	q_end	s_start	s_end	evalue	bit_score	subject_title
+NP_040703.1	NP_040689.1	68.27	513	161	2	1	512	1	512	0.0	702.0	protein A [Enterobacteria phage G4]
+NP_040705.1	NP_040691.1	62.50	120	45	0	1	120	1	120	3.2e-50	154.0	protein B [Enterobacteria phage G4]
+NP_040706.1	NP_040692.1	74.42	86	22	0	1	86	1	86	4.1e-42	132.0	protein C [Enterobacteria phage G4]
+NP_040707.1	NP_040693.1	67.11	152	50	0	1	152	1	152	2.7e-68	199.0	protein D [Enterobacteria phage G4]
+NP_040708.1	NP_040694.1	42.22	90	49	3	2	91	1	88	1.5e-14	66.2	protein E [Enterobacteria phage G4]
+NP_040709.1	NP_040695.1	84.21	38	6	0	1	38	1	38	8.4e-17	68.6	protein J [Enterobacteria phage G4]
+NP_040710.1	NP_040696.1	68.80	423	132	0	1	423	1	423	0.0	612.0	protein F [Enterobacteria phage G4]
+NP_040711.1	NP_040697.1	67.43	175	57	0	1	175	1	175	2.1e-78	226.0	protein G [Enterobacteria phage G4]
+NP_040712.1	NP_040698.1	69.51	328	100	0	1	328	1	328	5.4e-158	438.0	protein H [Enterobacteria phage G4]
+NP_040704.1	NP_040690.1	57.89	57	24	0	1	57	1	57	2.8e-18	73.2	protein K [Enterobacteria phage G4]

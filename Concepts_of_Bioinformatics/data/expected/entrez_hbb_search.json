@@ -1,0 +1,9 @@
+{
+  "count": "1",
+  "idlist": [
+    "NM_000518.5"
+  ],
+  "query": "HBB[Gene] AND Homo sapiens[Organism] AND RefSeq[Filter]",
+  "description": "Homo sapiens hemoglobin subunit beta (HBB), mRNA",
+  "length": 626
+}

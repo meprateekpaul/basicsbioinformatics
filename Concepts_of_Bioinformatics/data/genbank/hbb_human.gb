@@ -1,0 +1,82 @@
+LOCUS       NM_000518               626 bp    mRNA    linear   PRI 12-OCT-2023
+DEFINITION  Homo sapiens hemoglobin subunit beta (HBB), mRNA.
+ACCESSION   NM_000518
+VERSION     NM_000518.5
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 626)
+  AUTHORS   Lawn RM, Fritsch EF, Parker RC, Blake G and Maniatis T.
+  TITLE     The isolation and characterization of linked delta- and beta-globin
+            genes from a cloned library of human DNA
+  JOURNAL   Cell 15 (4), 1157-1174 (1978)
+   PUBMED   737981
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from V00497.1.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-626               V00497.1           1-626
+FEATURES             Location/Qualifiers
+     source          1..626
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="11"
+                     /map="11p15.4"
+     gene            1..626
+                     /gene="HBB"
+                     /gene_synonym="beta-globin; CD113t-C"
+                     /note="hemoglobin subunit beta"
+                     /db_xref="GeneID:3043"
+                     /db_xref="HGNC:HGNC:4827"
+                     /db_xref="MIM:141900"
+     exon            1..142
+                     /gene="HBB"
+                     /inference="alignment:Splign"
+                     /number=1
+     CDS             51..494
+                     /gene="HBB"
+                     /note="beta-globin chain; hemoglobin beta chain"
+                     /codon_start=1
+                     /product="hemoglobin subunit beta"
+                     /protein_id="NP_000509.1"
+                     /db_xref="CCDS:CCDS7753.1"
+                     /db_xref="GeneID:3043"
+                     /db_xref="HGNC:HGNC:4827"
+                     /db_xref="MIM:141900"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     misc_feature    57..59
+                     /gene="HBB"
+                     /note="sickle cell anemia mutation site; codon GAG -> GTG
+                     encodes Glu -> Val"
+     exon            143..365
+                     /gene="HBB"
+                     /inference="alignment:Splign"
+                     /number=2
+     exon            366..626
+                     /gene="HBB"
+                     /inference="alignment:Splign"
+                     /number=3
+     regulatory      600..605
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="HBB"
+                     /note="hexamer AATAAA"
+     polyA_site      626
+                     /gene="HBB"
+ORIGIN      
+        1 acatttgctt ctgacacaac tgtgttcact agcaacctca aacagacacc atggtgcacc
+       61 tgactcctga ggagaagtct gccgttactg ccctgtgggg caaggtgaac gtggatgaag
+      121 ttggtggtga ggccctgggc aggctgctgg tggtctaccc ttggacccag aggttctttg
+      181 agtcctttgg ggatctgtcc actcctgatg ctgttatggg caaccctaag gtgaaggctc
+      241 atggcaagaa agtgctcggt gcctttagtg atggcctggc tcacctggac aacctcaagg
+      301 gcacctttgc cacactgagt gagctgcact gtgacaagct gcacgtggat cctgagaact
+      361 tcaggctcct gggcaacgtg ctggtctgtg tgctggccca tcactttggc aaagaattca
+      421 ccccaccagt gcaggctgcc tatcagaaag tggtggctgg tgtggctaat gccctggccc
+      481 acaagtatca ctaagctcgc tttcttgctg tccaatttct attaaaggtt cctttgttcc
+      541 ctaagtccaa ctactaaact gggggatatt atgaagggcc ttgagcatct ggattctgcc
+      601 taataaaaaa catttatttt cattgc
+//
